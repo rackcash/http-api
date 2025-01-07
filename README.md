@@ -2,12 +2,26 @@
 rack gateway api reference 
 
 
-* Invoice
-    * [create](#post-v1invoicecreate)  
-    * [info](#post-v1invoiceinfo)  
-    * [cancel](#post-v1invoicecancel)  
-    * [qr-code](#get-v1invoiceqr-codeinvoice_id)  
-  
+ - **Invoice**
+    * [Create](#post-v1invoicecreate)  
+    * [Info](#post-v1invoiceinfo)  
+    * [Cancel](#post-v1invoicecancel)  
+    * [Qr-code](#get-v1invoiceqr-codeinvoice_id)  
+
+
+ - **Merchant**
+    - [Create](#post-v1merchantcreate)
+
+ * **Finances** 
+    - **Withdrawal**
+        * [Create](#post-v1financeswithdrawal)
+        * [Info](#post-v1financesinfowithdrawal_id)  
+
+ - **Currency**
+    * [Convert](#post-v1currencyconvert)
+    * [Rates](#post-v1currencyrates)
+
+
 ### POST /v1/invoice/create 
 
 Request example:
