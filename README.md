@@ -205,5 +205,3 @@ Response example:
 
 
 
-
-```
