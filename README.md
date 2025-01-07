@@ -2,11 +2,11 @@
 rack gateway api reference 
 
 
-## Invoice
-[create](#post-v1invoicecreate)  
-[info](#post-v1invoiceinfo)  
-[cancel](#post-v1invoicecancel)  
-[qr-code](#get-v1invoiceqr-codeinvoice_id)  
+* Invoice
+    * [create](#post-v1invoicecreate)  
+    * [info](#post-v1invoiceinfo)  
+    * [cancel](#post-v1invoicecancel)  
+    * [qr-code](#get-v1invoiceqr-codeinvoice_id)  
   
 ### POST /v1/invoice/create 
 
